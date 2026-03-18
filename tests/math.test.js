@@ -7,7 +7,7 @@ describe("Math utilities", () => {
     expect(add(-1, 1)).toBe(0);
     expect(add(0, 0)).toBe(0);
   });
-
+  // updated this a bit 
   // --- subtract ---
   test("subtract: returns the difference of two numbers", () => {
     expect(subtract(10, 4)).toBe(6);
